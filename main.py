@@ -18,7 +18,7 @@ def print_help():
     print(":reset -> limpia la memoria")
     print(":salir -> termina\n")
 def main():
-    print(f"🤖 {settings}")
+    print(f"🤖 {settings.system_name}")
     role = choose_role()
     chat = ChatService(role=role)
     print_help()
