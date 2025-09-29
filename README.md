@@ -23,7 +23,7 @@ Su proposito es mostrar como organizar un asistente conversacionarl que:
 
     pip install -r requirements.txt
 
-4-Configurar un archivo .env con variables necesarias como la clave API y el modelo de la ia(gemini-1.5-flash)
+4-Configurar un archivo .env con variables necesarias como la clave API(https://aistudio.google.com/prompts/new_chat) y el modelo de la ia(gemini-1.5-flash)
 
 5-Ejecucion
 
