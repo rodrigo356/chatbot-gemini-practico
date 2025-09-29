@@ -27,13 +27,13 @@ def main():
             user = input("🧑 Vos: ").strip()
         except (KeyboardInterrupt, EOFError):
             print("\n👋 Chau!")
-        break
+            break
         if not user:
             continue
 # Comandos
         if user.lower() in (":salir", "salir", "exit", "quit"):
             print("👋 ¡Chau!")
-        break
+            break
         if user.lower() == ":reset":
             chat.reset()
             print("🧼 Memoria borrada.")
@@ -52,11 +52,11 @@ def main():
             print(f"🎭 Rol cambiado a: {new_role}")
         else:
             print("⚠ Rol inválido. Opciones: profesor, traductor, programador, asistente.")
-        continue
+            continue
         response = chat.ask(user)
         if user.lower() == ":help":
             print_help()
-        continue
+            continue
         # Pregunta normal
         try:
             answer = chat.ask(user)
