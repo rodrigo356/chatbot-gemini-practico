@@ -16,7 +16,7 @@ Su proposito es mostrar como organizar un asistente conversacionarl que:
 
     python -m venv venv
 
-    source venv/bin/activa #Linux
+    source venv/bin/activate #Linux
     venv\Scripts\activate #Windows
 
 3-Instalar las dependencias:
